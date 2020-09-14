@@ -1,0 +1,41 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+    branches:
+      include:
+       - gcp-asset-inventory*
+    paths:
+      include:
+       - tools/gcp/asset_inventory*
+       - tools/common/ci/asset_inventory*
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+- script: echo Hello, world!
+  displayName: 'Run a one-line script'
+
+
+- task: DownloadSecureFile@1
+  name: authkey
+  displayName: 'Download secure file'
+  inputs:
+    secureFile: 'gcp-wow-corpit-cldops-dev-8aaf5d77844e.json'
+  condition: succeededOrFailed()
+
+- script: |
+    echo $(authkey.secureFilePath)
+    echo Add other tasks to build, test, and deploy your project.
+    echo See https://aka.ms/yaml
+    $env:GCLOUD_SDK_INSTALLATION_NO_PROMPT = "TRUE"
+    gcloud auth activate-service-account --key-file $(authkey.secureFilePath)
+    gcloud version
+    gcloud config list
+    gcloud config set project woolworths-gcp-billing
+    gcloud asset export --folder='746344775512' --bigquery-table='projects/woolworths-gcp-billing/datasets/gcp_asset_inventory/tables/gcp_asset_table_platform' --output-bigquery-force --content-type='resource'
+
+  displayName: 'Run a multi-line script'

@@ -12,8 +12,6 @@ $ArmEndpoint = "https://management.azure.com/"
 #Connect-AzureRmAccount -EnvironmentName "AzureCORPPROD" -Subscription
 #$sp = Get-AzADServicePrincipal -DisplayName SPN-CloudOps-ReportAutomation  
 #$pscredential = Get-Credential -UserName $sp.ApplicationId 
-#Set AEST time zone on agent changing from Default UTC
-Set-TimeZone "AUS Eastern Standard Time"
 $tenantId = (Get-Azcontext).Tenant.Id
 #Connect-AzAccount -ServicePrincipal -Credential $pscredential -Tenant $tenantId
 $subscriptions=Get-AzSubscription

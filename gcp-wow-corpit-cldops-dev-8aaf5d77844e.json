@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "gcp-wow-corpit-cldops-dev",
+  "private_key_id": "8aaf5d77844e188bc6f9bef999022556f8883430",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCog1b5J4DHWds7\nPNnRf6pXNI5BXi5M8pDZWzupZFAZGs3JeARQANprxCVm53Ik/e3huFWUoqXgLTo2\nmzYCmSVnFIV8RHtz8GaCASNoSu8g605uYSc9UPpQKZYthiLV2FGJ7J0vDKCB4x1t\nSlTQ3ksLgv+Qqn57nj3gL+aY3fRc85utUu8VaA3u5hTiGrCQ40IPNUxT8BbtEwg5\nCjSGn3OeFn0IvlqwN8yY1apFxjuC+ZeRqyXMAsqJjv/5I18GG3ldONPqWAkqupK3\nqNghnY0fKAu0CNfwiQte6BDzqtOy+6+Ayydg+eMdBJ2NfuidnGFfZRda7cJx84i6\nltSOKdcDAgMBAAECggEABZLaievUPEPCQZJWA1zn+HHE5sVDs3MudqdS24Z1iRm0\nMXQRHchOxn5lXPhOHopw7M9ZB/fdPq31nUrC8uZihfyixvpzjuEmXX8bebPzdtuc\nQNW2eOENy8r5rFB3JIA+1Nizq5O3rLQjYV2yXSTiceNc//RJB15eM4/CCSUGPnDD\n1BR02UlSLt9BUKR+2PdWXpun1ohWf6aE7cSlfM8C8Un02IFixPYI3rpDsYAFKdYk\nZ5sBuraGA9CPEj2pQSLCqaR97H3GaKwqlSo9bpIiie/IcOBdCtD7XWxfQJNFpo/C\nPTVC3yIvBM5vLik+xgdIjRclieIRaJhrUj9eifYCcQKBgQDkrbyQnd14xdtnrYtS\nH6u6ta8Cdb/lkYCuL0wFGLPblSlkAl4pFTb64thdwLTcoYi9up0KpZicDKaHHP7O\nmhksL9ryXmcNBGAp+OOC0J86j5BhjXpBv8/1hiscVhUCNbPSvIFU1P13aypSF74T\n6vfPt+p0qFzs6rbKqk1tvd5xeQKBgQC8pWeSG1M3pGdcyq/J0Zp+5HIenxAlE6Wm\nztyLxMhPwxAKDOwwEY8H3iqtlf1phsh91MM7G/3+0IiMr1YHVSKlJyr9+KDYvvLE\nO6mCac5ceQltr0KojZ/8zRPL/uBkHBNzJob9DioRWZQ5XB1jmuXtc7Vf7bOFVtY9\n9xbhXJxJWwKBgA2B0ZR9Lpq2nRoHnyYPptYVayvrBpWpvX8MXiIi7mS278Xved5V\nWXUCNyN6gXRSuj/yqNn7JAN7n851QPu1EG2Sugz81HtpWcDA6bdNWUpdNnr8n08I\n5GCtNxiqYP1LbL6y0bTQC9Sk6NAGhPyqMU78nwWa+DoqNvfLjV1BDMWJAoGAWM51\nB28dqeAXWLOCNbwawwnAP3IaI5owLWrMoG+u7P2jG1giCC776nRIGxe1CGyPDc2P\natAurjp1TeVs1l7ZxG2/63eUIPUjTAXaMq6kmxvPuHb9JmQloNjaLPp7oCUnctn8\nSjzUyP4mrSoUG8Pb4gDKrbI1BNxwVxNvDgCPAmkCgYBH/cz2ErLRUug/hsxH9j9d\niDP99Rx+SaPR4NqJ9ZtcFQIwWQ2DyHZgwPUJblB15g5lrqJZ1AXFNISOi/jjy3rC\nf0FhCpZmHrdqsQAuF8la0ZQhBJBplFQQf1aDq1b8necJHtKi4xCRb2sSW1k5UDiF\nUULi09cOYGmlwtxs10A/LQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "terraformtest@gcp-wow-corpit-cldops-dev.iam.gserviceaccount.com",
+  "client_id": "103412037901258018700",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/terraformtest%40gcp-wow-corpit-cldops-dev.iam.gserviceaccount.com"
+}
